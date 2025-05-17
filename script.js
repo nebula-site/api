@@ -47,4 +47,3 @@ auth.onAuthStateChanged(user => {
     }
   }
 });
-
