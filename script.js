@@ -1,10 +1,3 @@
-// 🔧 Replace with your actual config:
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-};
-
 // ✅ Your Firebase project config
 const firebaseConfig = {
   apiKey: "AIzaSyBlW_3nYuvybOywnrzEAjzFftHE35mHiHg",
