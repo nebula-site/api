@@ -2,8 +2,6 @@
 <html>
 <head>
   <title>Sign Up</title>
-    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase.js"></script>
-  <script src="script.js" defer></script>
 </head>
 <body>
   <h2>Sign Up</h2>
@@ -11,5 +9,10 @@
   <input id="password" placeholder="Password" type="password"><br>
   <button onclick="signUp()">Sign Up</button><br>
   <a href="login.html">Already have an account? Login</a>
+
+  <!-- ✅ Load Firebase first -->
+  <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase.js"></script>
+  <!-- ✅ Then load your app script -->
+  <script src="script.js"></script>
 </body>
 </html>
